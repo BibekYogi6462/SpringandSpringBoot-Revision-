@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="com.bibek.beans.Address" id="addrId">
+        <property name="houseno" value="101"/>
+        <property name="city" value="KTM"/>
+        <property name="pincode" value="123"/>
+    
+    </bean>
+    
+    
+    <bean class="com.bibek.beans.Student" id="stdId">
+             <property name="name" value="Bibek"/>
+               <property name="rollno" value="04"/>
+              <property name="address" ref="addrId"/>
+         
+    </bean>
+
+</beans>
