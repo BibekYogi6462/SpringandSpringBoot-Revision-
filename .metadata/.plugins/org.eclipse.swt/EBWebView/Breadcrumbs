@@ -28,3 +28,24 @@
 0:43:56 Microsoft.Shutdown.OnWindowClosing
 0:43:56 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 0:43:56 Microsoft.Browser_Removed
+0:48:03 Microsoft.NewBrowser_Popup
+0:48:03 Microsoft.BrowserList.AddBrowser
+0:48:03 Browser6 Insert active Tab6 at 0
+0:48:03 Tab6 StartNav31 #auto_toplevel
+0:48:03 Tab6 StartNav32 #typed
+0:48:03 Tab6 FinishNav31
+0:48:03 Tab6 PageLoad
+0:48:03 Tab6 FinishNav32
+0:48:03 Tab6 PageLoad
+0:48:04 Tab6 StartNav33 #typed
+0:48:04 Tab6 FinishNav33
+0:48:04 Tab6 PageLoad
+0:48:04 Tab6 StartNav34 #typed
+0:48:04 Tab6 FinishNav34
+0:48:04 Tab6 PageLoad
+0:48:07 Tab6 StartNav35 #typed
+0:48:07 Tab6 FinishNav35
+0:48:07 Tab6 PageLoad
+0:48:16 Tab6 StartNav36 #typed
+0:48:16 Tab6 FinishNav36
+0:48:16 Tab6 PageLoad
